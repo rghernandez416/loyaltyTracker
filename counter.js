@@ -39,4 +39,11 @@ document.getElementById("calcPercent").onclick = function () {
     if ((newMem === 0) && (total === 0)) {
         document.getElementById("percentTracker").innerHTML = "Loyalty Percentage: 0%";
     }
+
+    //write encourageing message depending on how the user is doing
+    if (assPercentage >= .85) {
+        document.getElementById("message").innerHTML = "Keep it up!";
+    } else {
+        document.getElementById("message").innerHTML = "You're slipping, maybe try something new?";
+    }
 }

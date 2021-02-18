@@ -6,16 +6,20 @@ body {
     font-family: 'Lato';
 }
 
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
 #newMember, #missed {
     font-family: 'Lato';
-    background-color: rgb(198,75,26);
     font-weight: bold;
     display: inline;
     width: 45%;
     margin: 2.25%;
     border: 0;
     padding: 0;
-    height: 65px;
+    height: 60px;
     border-radius: 33px;
 }
 
@@ -25,4 +29,32 @@ body {
 
 #missed {
     background-color: rgba(230, 51, 31, 0.727);
+}
+
+#newMemTracker, #missedTracker {
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+}
+
+
+#calcPercent {
+    background-color: rgb(198,75,26);
+    font-family: 'Lato';
+    background-color: rgb(198,75,26);
+    font-weight: bold;
+    display: block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    padding: 0;
+    height: 50px;
+    border-radius: 33px;
 }
